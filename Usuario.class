@@ -1,0 +1,26 @@
+public class Usuario {
+    private String nombre;
+    private String id;
+    private String telefono;
+    private String direccion;
+
+    //Constructor
+
+    public Usuario (String nombre, double id, String telefono, String direccion) {
+        this.nombre = nombre;
+        this.id = id;
+        this.telefono = telefono;
+        this.dirección = direccion;
+        }
+
+    //Métodos
+
+    public String getNombre () { return nombre;  }
+
+    public String getId () { return id;  }
+
+    public String getTelefono () { return telefono;   }
+    
+    
+
+} //Cierre de la clase
