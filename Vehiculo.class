@@ -2,14 +2,17 @@ public class Vehiculo {
     private String matricula;
     private String marca;
     private String modelo;
+    private String color;
     //Constructor
-    public Vehiculo (String matricula, String marca, String modelo) {
+    public Vehiculo (String matricula, String marca, String modelo, String color) {
         this.matricula = matricula;
         this.marca = marca;
-        this.modelo = modelo;                   }
+        this.modelo = modelo;
+        this.color  color;}
     //Métodos
     public String getMatricula () { return matricula;  }
     public String getMarca () { return marca;  }
     public String getModelo () { return modelo;   }
+    public String getColor () { return color;   }
 
 } //Cierre de la clase
